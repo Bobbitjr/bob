@@ -1,0 +1,10 @@
+basic.forever(function () {
+    music.playMelody("C5 C5 C5 B A G B C5 ", 300)
+    basic.showString("Hello!")
+    basic.showIcon(IconNames.Heart)
+    basic.showIcon(IconNames.Happy)
+    basic.pause(5000)
+    basic.showString("How can I help?")
+    basic.pause(5000)
+    basic.showString("How are you doing?")
+})
